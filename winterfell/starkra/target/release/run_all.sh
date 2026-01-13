@@ -2,9 +2,9 @@
 set -e
 
 # Experiment parameter grids
-NUM_QUERIES="32 64 128"
-BLOWUP_FACTORS="16 32 64 128"
-GRINDINGS="0 2 4 8 16"
+NUM_QUERIES="32"
+BLOWUP_FACTORS="16"
+GRINDINGS="0"
 
 # Number of repetitions per (bench, addr, size, num_queries, blowup_factor, grinding)
 RUNS=5
@@ -18,7 +18,7 @@ ADDRS="24"
 SIZES="500"
 
 # Root directory that contains all benchmark subdirectories
-BENCH_ROOT="/home/joseph.gonzalez/Documents/jgonzalez/STARK-ntt-attesttation/experiments/experiments"
+BENCH_ROOT="~/starkra/experiments/experiments"
 
 # Where to store logs
 BASE="logs"
