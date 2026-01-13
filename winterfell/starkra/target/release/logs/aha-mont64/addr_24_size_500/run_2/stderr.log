@@ -1,7 +1,7 @@
 	Command being timed: "./starkra /home/rpi/starkra/experiments/experiments/aha-mont64/numified_adjlist /home/rpi/starkra/experiments/experiments/aha-mont64/numified_path 64 64 0"
-	User time (seconds): 0.06
+	User time (seconds): 0.05
 	System time (seconds): 0.02
-	Percent of CPU this job got: 282%
+	Percent of CPU this job got: 272%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
@@ -10,9 +10,9 @@
 	Maximum resident set size (kbytes): 7644
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1768
-	Voluntary context switches: 178
-	Involuntary context switches: 105
+	Minor (reclaiming a frame) page faults: 1766
+	Voluntary context switches: 176
+	Involuntary context switches: 95
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 40

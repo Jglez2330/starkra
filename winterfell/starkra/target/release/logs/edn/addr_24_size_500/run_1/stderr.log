@@ -1,18 +1,18 @@
 	Command being timed: "./starkra /home/rpi/starkra/experiments/experiments/edn/numified_adjlist /home/rpi/starkra/experiments/experiments/edn/numified_path 64 64 0"
-	User time (seconds): 0.18
-	System time (seconds): 0.04
-	Percent of CPU this job got: 275%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	User time (seconds): 0.17
+	System time (seconds): 0.05
+	Percent of CPU this job got: 296%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 15600
+	Maximum resident set size (kbytes): 15604
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 4456
-	Voluntary context switches: 231
-	Involuntary context switches: 234
+	Minor (reclaiming a frame) page faults: 4447
+	Voluntary context switches: 217
+	Involuntary context switches: 125
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 88

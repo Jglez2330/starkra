@@ -1,7 +1,7 @@
 num_queries = 64
 blowup_factor = 64
 grinding_factor = 0
-Trace built in 55.555µs
+Trace built in 55.387µs
 row |   nonce | current |   stack |    nei0 |    nei1 |    nei2 |    nei3 |    nei4 |    nei5 |    nei6 |    nei7 |   valid |     ret |    call |
 ----+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
   0 |     123 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |
@@ -20,8 +20,8 @@ row |   nonce | current |   stack |    nei0 |    nei1 |    nei2 |    nei3 |    n
  13 |     123 |      41 |      67 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |
  14 |     123 |      41 |      67 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |
  15 |     123 |      41 |      67 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |
-Proving time: 7.270ms
+Proving time: 7.046ms
 Proof size: 33.69 KiB (34495 bytes)
 Valid Proof
- Verification succeeded in 958.351µs
-Done. Trace build: 55.555µs | Prove: 7.270ms | Verify: 958.351µs | Proof: 33.69 KiB (34495 bytes)
+ Verification succeeded in 953.989µs
+Done. Trace build: 55.387µs | Prove: 7.046ms | Verify: 953.989µs | Proof: 33.69 KiB (34495 bytes)

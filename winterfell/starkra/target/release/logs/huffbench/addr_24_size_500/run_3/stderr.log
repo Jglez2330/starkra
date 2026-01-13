@@ -1,18 +1,18 @@
 	Command being timed: "./starkra /home/rpi/starkra/experiments/experiments/huffbench/numified_adjlist /home/rpi/starkra/experiments/experiments/huffbench/numified_path 64 64 0"
 	User time (seconds): 1.00
-	System time (seconds): 0.15
-	Percent of CPU this job got: 336%
+	System time (seconds): 0.14
+	Percent of CPU this job got: 332%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.34
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 61944
+	Maximum resident set size (kbytes): 61920
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 23332
-	Voluntary context switches: 282
-	Involuntary context switches: 340
+	Minor (reclaiming a frame) page faults: 23331
+	Voluntary context switches: 281
+	Involuntary context switches: 287
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 392

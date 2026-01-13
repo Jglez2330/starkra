@@ -2,8 +2,8 @@
 set -e
 
 # Experiment parameter grids
-NUM_QUERIES="32"
-BLOWUP_FACTORS="16"
+NUM_QUERIES="64"
+BLOWUP_FACTORS="64"
 GRINDINGS="0"
 
 # Number of repetitions per (bench, addr, size, num_queries, blowup_factor, grinding)
@@ -18,7 +18,7 @@ ADDRS="24"
 SIZES="500"
 
 # Root directory that contains all benchmark subdirectories
-BENCH_ROOT="~/starkra/experiments/experiments"
+BENCH_ROOT="/home/rpi/starkra/experiments/experiments"
 
 # Where to store logs
 BASE="logs"
@@ -59,7 +59,7 @@ for bench in $BENCHES; do
             echo ""
 
             # Logs organized by bench / addr / size / parameters
-            OUTDIR="${BASE}/${bench}/addr_${addr}_size_${size}/q${nq}_b${bf}_g${gr}"
+            OUTDIR="${BASE}/${bench}"
             mkdir -p "$OUTDIR"
 
             r=1
